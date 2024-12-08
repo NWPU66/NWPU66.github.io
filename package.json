@@ -1,0 +1,20 @@
+{
+  "name": "nwpu66.github.io",
+  "version": "1.0.0",
+  "description": "This is my personal Blog.",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "author": "NWPU66",
+  "license": "ISC",
+  "repository": {
+    "url": "https://github.com/nwpu66/nwpu66.github.io.git",
+    "type": "git"
+  },
+  "devDependencies": {
+    "vitepress": "^1.5.0"
+  }
+}
