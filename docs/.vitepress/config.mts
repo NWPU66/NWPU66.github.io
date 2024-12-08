@@ -6,6 +6,8 @@ export default defineConfig({
   title: "My Awesome Project",
   description: "A VitePress Site",
 
+  base: "", //NOTE - 如果要部署在https://nwpu66.github.io/something/，则base为something/
+
   // theme-level options
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
